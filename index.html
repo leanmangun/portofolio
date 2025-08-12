@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saimon Karki - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/whitebg2.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Cybersecurity Dude</p>
+                <h1>Hi, I'm <span>Saimon</span><br>From Nepal</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/blackbg3.png" alt="Profile">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Cybersecurity expert with experience in threat analysis and vulnerability assessment.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Web Development</span><br>Full Stack Development</li>
+                            <li><span>Cybersecurity</span><br>Security Analysis</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Security Analyst</li>
+                            <li><span>2021-2023</span><br>Junior Pentester</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Kings College</li>
+                            <li><span>2022</span><br>KMC</li>
+                            <li><span>2019</span><br>Paragon Public school</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Create intuitive and beautiful user interfaces.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-hackerrank"></i>
+                    <h2>Security Testing</h2>
+                    <p>Comprehensive vulnerability assessments.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Cloud Security</h2>
+                    <p>Secure cloud infrastructure solutions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/heart.jpg" alt="Health App">
+                    <div class="layer">
+                        <h3>Health Monitoring App</h3>
+                        <p>UI design for heart rate tracking application.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/car.jpg" alt="Car Dashboard">
+                    <div class="layer">
+                        <h3>Automotive Interface</h3>
+                        <p>Connected car dashboard design.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/video.jpg" alt="Video Platform">
+                    <div class="layer">
+                        <h3>Streaming Service</h3>
+                        <p>Video content delivery platform.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- Simplified Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="contact-info">
+                <p>Email: contact@saimon.com</p>
+                <p>Phone: +977 9800000000</p>
+                <p>Location: Kathmandu, Nepal</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
